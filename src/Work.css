@@ -1,0 +1,9 @@
+.work-container {
+    background-image: url('./images/work2.jpg');
+    height: 80vh;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50vh;
+
+}
