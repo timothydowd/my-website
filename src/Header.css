@@ -6,6 +6,18 @@ header {
     text-align: center;
     padding-top: 50vh;
 
+    
+    
+    
+    /* transform: translateY(-50%); */
+
+    
+}
+
+.header-container {
+    /* top: 50%;
+    transform: translateY(-50%); */
+    vertical-align: middle;
 }
 
 h1 {

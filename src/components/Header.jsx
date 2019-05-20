@@ -11,6 +11,7 @@ function Header() {
 
   return (
       <header>
+        <div className='header-container'>
           <h1>Tim Dowd</h1>
           <h3>Software Developer / Northcoders Graduate / Peanut Butter Fan</h3>
           <p></p>
@@ -22,6 +23,7 @@ function Header() {
           <i class="devicon-bootstrap-plain"></i>
           <i class="devicon-mocha-plain"></i>
           <i class="devicon-git-plain"></i>
+          </div>
       </header>
 
   );

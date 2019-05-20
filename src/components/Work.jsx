@@ -11,7 +11,8 @@ function Work() {
     
   return (
       <div className='work-container'>
-        <p>say something</p>
+        <p>NC News</p>
+        <p>Reserv3d</p>
       </div>
 
   );

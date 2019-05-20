@@ -5,6 +5,8 @@ import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
 import Nav from './components/Nav'
 import Header from './components/Header'
 import Work from './components/Work'
+import About from './components/About'
+import Contact from './components/Contact'
 
 
 
@@ -21,6 +23,8 @@ class App extends Component {
         <Nav></Nav>
         <Header></Header>
         <Work></Work>
+        <About></About>
+        <Contact></Contact>
         
         
 
