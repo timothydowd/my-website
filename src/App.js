@@ -1,22 +1,30 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+import Nav from './components/Nav'
+import Header from './components/Header'
 
 
 
 import './App.css';
 
-function App() {
+class App extends Component {
 
-  library.add(faStroopwafel)
-  return (
-    <div className="App">
-     <span><button>work</button>&nbsp;<button>about</button>&nbsp;<button>contact</button></span>
+  render(){
+
+    library.add(faStroopwafel)
+      return (
+        <div className="App">
+        <Nav></Nav>
+        <Header></Header>
+        
+        
 
 
-    </div>
-  );
+        </div>
+    );
+  }
 }
 
 export default App;
