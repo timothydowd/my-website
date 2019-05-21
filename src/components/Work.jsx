@@ -10,7 +10,7 @@ function Work() {
     
     
   return (
-      <div className='work-container'>
+      <div className='work-container' id='work'>
         <h2>Work</h2>
         <p className='textDescriptions'>
           Recent projects completed as part of the Northcoders fullstack bootcamp...
@@ -39,22 +39,7 @@ function Work() {
           </div>
         </div>
 
-        {/* <div className='project-container1'>
-          <div className='left-float'>
-          NCNews is a fullstack Reddit style news website where users can login, add and delete topics, articles and comments and like or dislike content. Backend RESTful API built in Node.js, Express.js with a Postgresql database and frontend built with React.js and Bootstrap. Testing carried out using Mocha, Chai and Supertest. 
-          </div>
-          <div className='right-float'>
-            <img src={require('.././images/ncnews2.jpg')} alt="reserv3d" className='img-adjust1'></img>
-          </div>
-        </div> */}
-        
-
-        
-        
-      {/* <div>
-        <img src={require('.././images/reserv3d.png')} alt="reserv3d"></img>
-        Reserv3d is a fullstack restaurant booking mobile application where users can view a restaurant in 360 degrees, select an available table whilst in the VR/360 environment and book that table.  The projects front end was built in React 360 for the virtual environment, React Native for the mobile functionaility and backend in Node, Express and SQL.  This was a team project where I worked mostly on the virtual environment in React 360.
-      </div> */}
+      
 
         
         

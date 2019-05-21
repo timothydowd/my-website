@@ -11,7 +11,7 @@ function Header() {
 
   return (
       <header>
-        <div className='header-container'>
+        <div className='header-container' id='home'>
           <h1>Tim Dowd</h1>
           <h3>Software Developer / Northcoders Graduate / Peanut Butter Fan</h3>
           <p></p>

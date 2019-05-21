@@ -4,12 +4,15 @@
 }
 
 nav {
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(36, 36, 36);
     align-items: center;
     padding-right: 20px;
     padding-left: 20px;
+    justify-content: center;
 }
 
 nav ul {
@@ -18,10 +21,23 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 8px;
+    margin-right: 4rem;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
 }
+
+.nav-bar {
+    display: inline-block;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+/* .active {
+    border-bottom: 5px solid rgb(255, 255, 255);
+} */
+
+
+
