@@ -1,10 +1,98 @@
 .work-container {
-    /* background-image: url('./images/work2.jpg'); */
     background-color:#384059;
     height: 80vh;
     background-size: cover;
     margin: 0 auto;
     text-align: center;
-    padding-top: 50vh;
+    padding-top: 15vh;
 
 }
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem;
+    color: white;
+}
+
+img {
+    display: flex;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0;
+    color: white;
+    font-size: 7.5rem;
+    border-radius: 1rem;
+    
+}
+
+.project-container1 {
+    display: inline-block; 
+    width: 80%;
+    height: auto;
+    margin-right: 10px;
+    padding: 1rem;
+}
+.project-container2 {
+    display: inline-block; 
+    width: 80%;
+    height: 100px;
+    margin-right: 10px;
+    padding: 1rem;
+}
+
+
+.textDescriptions {
+    font-size: 1.25rem;
+    margin: 0;
+    color: white;
+    padding: 1rem;
+}
+
+
+  .left-float {
+    float:left; 
+    margin-right:10px;
+    width:auto;
+    color: white; 
+  }
+
+  .right-float { 
+    overflow:hidden;
+    margin:10px;
+    text-align: justify;
+    color: white;
+    
+  }
+
+  .left-float2 { 
+    overflow:hidden;
+    margin:10px;
+    text-align: justify;
+    color: white;
+  }
+  .right-float2 { 
+    float:right; 
+    margin-right:10px;
+    width:auto;
+    color: white; 
+  }
+  
+  
+  .img-adjust1 {
+      width: 17.5rem;
+      height: auto;
+      
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
