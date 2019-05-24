@@ -1,10 +1,39 @@
 .about-container {
     /* background-image: url('./images/work2.jpg'); */
     background-color: #2D5873;
-    height: 80vh;
-    background-size: cover;
+    height: 100vh;
     margin: 0 auto;
     text-align: center;
-    padding-top: 50vh;
+    
 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
+
+.about-text-container {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 1rem;
+    
+    
+    
+    
+}
+
+.about-text {
+    font-size: 1rem;
+    text-align: justify;
+    margin: 0;
+    color: white;
+    padding: 1rem;
 }

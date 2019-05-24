@@ -2,13 +2,27 @@
     /* background-image: url('./images/work2.jpg'); */
     /* background-color: #54a099; */
     background-color: #00767c;
-    height: 80vh;
+    height: 100vh;
+    /* 
+   
     background-size: cover;
     margin: 0 auto;
     text-align: center;
     padding-top: 50vh;
-    font-size: 4rem;
+    font-size: 4rem; */
 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.text-contact-container {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 1rem;
+    
 }
 
 i {
