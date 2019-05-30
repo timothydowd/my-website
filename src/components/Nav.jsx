@@ -1,61 +1,104 @@
-import React from 'react';
-// import '../Nav.css';
+import React, { Component } from "react";
+
 import { Link, animateScroll as scroll } from "react-scroll";
 
-function Nav() {
+class Nav extends Component {
+  constructor(props) {
+    super(props);
 
-  return (
-   <nav>
-       {/* <h1 className='logo'>logo</h1> */}
-       <ul>
-        <Link
-          className='nav-bar'
-          activeClass="active"
-          to="home"
-          spy={true}
-          smooth={true}
-          offset={-300}
-          duration= {500}
-        >Home</Link>
+    this.state = {
+      burgerActive: false
+    };
 
-        <Link
-        className='nav-bar'
-          activeClass="active"
-          to="work"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration= {500}
-        >Work</Link>
+   
+  }
 
-        <Link
-        className='nav-bar'
-          activeClass="active"
-          to="about"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration= {500}
-        >About</Link>
+  clickHamburger = () => {
+    if (this.state.burgerActive === false)
+      this.setState({ burgerActive: true });
+    else this.setState({ burgerActive: false });
+  };
 
-        <Link
-        className='nav-bar'
-          activeClass="active"
-          to="contact"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration= {500}
-        >Contact</Link>
+  componentDidMount() {
+    this.setState({ burgerActive: false });
+  }
 
+  componentDidUpdate() {
+    console.log(this.state.burgerActive);
+  }
+  render() {
+    return (
+      <div>
+        <nav>
+          <div className={ this.state.burgerActive ? "mobile-bar" : "nav-bar" }>
+          <div
+              className={
+                this.state.burgerActive ? "hamburger is-active" : "hamburger"
+              }
+              onClick={this.clickHamburger}
+            >
+              <span className="line" />
+              <span className="line" />
+              <span className="line" />
+            </div>
+            
 
-           {/* <li><a href='#aaa'>Home</a></li>
-           <li><a href='#aaa'>Work</a></li>
-           <li><a href='#aaa'>About</a></li>
-           <li><a href='#aaa'>Contact</a></li> */}
-       </ul>
-   </nav>
-  );
+            <ul>
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-300}
+                duration={500}
+              >
+                Home
+              </Link>
+
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="work"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                Work
+              </Link>
+
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                About
+              </Link>
+
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                Contact
+              </Link>
+            </ul>
+
+            
+          </div>
+        </nav>
+      </div>
+    );
+  }
 }
 
 export default Nav;
