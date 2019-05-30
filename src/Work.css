@@ -1,12 +1,6 @@
 .work-container {
     background-color:#384059;
-    /* height: 100vh;
-    background-size: cover;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20vh;
-    padding-bottom: 20vh; */
-
+    
     height: 100vh;
     margin: 0 auto;
     text-align: center;
@@ -25,11 +19,7 @@
   background-size: cover;
   margin: 0 auto;
   text-align: center;
-  /* padding-top: 20vh;
-  padding-bottom: 20vh; */
-  /* border: solid green; */
-
-
+ 
 }
 
 h1 {

@@ -1,11 +1,7 @@
 import React from 'react';
 
-
-import '../Header.css';
+// import '../Header.css';
 import '../../node_modules/devicon/devicon.css'
-
-
-
 
 function Header() {
 
@@ -17,15 +13,14 @@ function Header() {
           <p></p>
           <i className="devicon-javascript-plain"></i>
           <i className="devicon-react-original"></i>
-          <i class="devicon-express-original"></i>
-          <i class="devicon-html5-plain"></i>
-          <i class="devicon-css3-plain"></i>
-          <i class="devicon-bootstrap-plain"></i>
-          <i class="devicon-mocha-plain"></i>
-          <i class="devicon-git-plain"></i>
+          <i className="devicon-express-original"></i>
+          <i className="devicon-html5-plain"></i>
+          <i className="devicon-css3-plain"></i>
+          <i className="devicon-bootstrap-plain"></i>
+          <i className="devicon-mocha-plain"></i>
+          <i className="devicon-git-plain"></i>
           </div>
       </header>
-
   );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Nav.css';
+// import '../Nav.css';
 import { Link, animateScroll as scroll } from "react-scroll";
 
 function Nav() {
