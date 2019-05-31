@@ -181,6 +181,7 @@ h2 {
   margin: 0;
   color: white;
   padding: 1rem;
+  
 }
 
 
@@ -190,21 +191,23 @@ h2 {
   width:auto;
   color: white; 
   border: solid transparent;
+  text-align: center;
 }
 
 .right-float { 
   overflow:hidden;
   margin:10px;
-  text-align: justify;
+  
   color: white;
   border: solid transparent;
+  text-align: center;
   
 }
 
 .left-float2 { 
   overflow:hidden;
   margin:10px;
-  text-align: justify;
+  text-align: center;
   color: white;
   border: solid transparent;
 }
@@ -234,7 +237,8 @@ a {
 /* about */
 
 .about-container {
-  /* background-image: url('./images/work2.jpg'); */
+  background-image: url('./images/2.jpg');
+  background-size: cover;
   background-color: #2D5873;
   height: 100vh;
   margin: 0 auto;
@@ -242,6 +246,7 @@ a {
   display:flex;
   justify-content:center;
   align-items:center;
+  background-attachment: fixed;
 
 }
 
@@ -254,7 +259,7 @@ a {
 
 .about-text {
   font-size: 1rem;
-  text-align: justify;
+  text-align: center;
   margin: 0;
   color: white;
   padding: 1rem;
