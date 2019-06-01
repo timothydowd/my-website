@@ -21,7 +21,7 @@ function Work() {
               <a href='https://ncnews-timdowd.netlify.com' rel="noopener noreferrer" target="_blank" ><img className='work-img' src={require('.././images/ncnews2.jpg')} alt="ncnews"></img></a>
             </div> */}
             <div>
-              - NCNews - a fullstack Reddit style news website where users can login, add and delete topics, articles and comments and like or dislike content. Backend RESTful API built in Node.js, Express.js with a Postgresql database and frontend built with React.js and Bootstrap. Testing carried out using Mocha, Chai and Supertest.
+              - NCNews - a fullstack Reddit style news website where users can login, add and delete topics, articles and comments and like or dislike content. The backend RESTful API was built in Node.js, Express.js with a Postgresql database.The frontend was built with React.js and Bootstrap. Testing carried out using Mocha, Chai and Supertest.
               <p><a href='https://ncnews-timdowd.netlify.com' rel="noopener noreferrer" target="_blank">Visit Website</a>  |  
                 <a href='https://github.com/timothydowd/FE-NC-News' rel="noopener noreferrer" target="_blank">  FrontEnd Repo</a>  |  
                 <a href='https://github.com/timothydowd/BE-NC-News' rel="noopener noreferrer" target="_blank">  BackEnd Repo</a></p>

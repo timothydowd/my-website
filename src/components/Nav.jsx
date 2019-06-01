@@ -62,7 +62,7 @@ class Nav extends Component {
                 to="work"
                 spy={true}
                 smooth={true}
-                offset={-99}
+                offset={0}
                 duration={500}
               >
                 Work

@@ -16,10 +16,11 @@ html,body
 .App {
   text-align: center;
   width: 100%;
+  display: block;
 }
 
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -28,7 +29,7 @@ html,body
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 
 
@@ -89,11 +90,13 @@ header {
   width: 100%;
   background-attachment: fixed;
   padding-bottom: 50px;
+  /* border: solid red; */
 }
 
 .header-container {
   vertical-align: middle;
   width: 80%;
+  /* border: dashed red; */
 }
 
 
@@ -127,17 +130,18 @@ header i {
 /* work container */
 
 .work-container {
-  /* background-color:#384059; */
+ 
   background-color: white;
   
   height: 100vh;
   margin: 0 auto;
   text-align: center;
-  
-
   display:flex;
   justify-content:center;
   align-items:center;
+  /* border: solid green; */
+
+  
   
 }
 
@@ -148,12 +152,17 @@ header i {
   margin: 0 auto;
   text-align: left;
   width: 80%;
+  height: 100%;
+  /* border: dashed green; */
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  
 }
 
 .work-h1 {
   font-size: 4rem;
   font-weight: 700;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   
   /* color: white; */
   color: black;
@@ -167,7 +176,7 @@ h2 {
    color: black;
 }
 
-.work-img {
+/* .work-img {
   display: flex;
   display: inline-block;
   padding: 0.5rem;
@@ -176,7 +185,8 @@ h2 {
   font-size: 7.5rem;
   border-radius: 1rem;
   width: 30%;
-}
+  
+} */
 
 
 
@@ -228,6 +238,7 @@ a {
   justify-content:center;
   align-items:center;
   background-attachment: fixed;
+  /* border: solid blue; */
 
 }
 
@@ -235,7 +246,9 @@ a {
   margin: auto;
   width: 80%;
   text-align: left;
-  /* padding: 1rem;   */
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  /* border: dashed blue; */
 }
 
 .about-text {
@@ -243,7 +256,7 @@ a {
   text-align: left;
   margin: 0;
   color: black;
-  /* padding: 1rem; */
+  padding-bottom: 1rem; 
 }
 
 
@@ -261,6 +274,7 @@ a {
   display:flex;
   justify-content:center;
   align-items:left;
+  /* border: solid red; */
 
 }
 
@@ -268,7 +282,9 @@ a {
   margin: auto;
   width: 80%;
   text-align: left;
-  padding: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  /* border: dashed red; */
  
 }
 
@@ -304,58 +320,47 @@ i {
 
 @media only screen and (max-width: 1177px) {
   
-  .project-container1 {
-    display: inline-block; 
-    width: 90%;
-    height: auto;
-    margin-right: 10px;
-    padding: 1rem;
+  
+  
 
+  header {
+    padding-top: 20%;
+    height: auto;
   }
 
-  .project-container2 {
-    display: inline-block; 
-    width: 90%;
+  .work-container {
+ 
+    background-color: white;
+    
     height: auto;
-    margin-right: 10px;
-    padding: 1rem;
-   
+    
   }
 
-  .work-img {
-    display: flex;
-    display: inline-block;
-    padding: 0.5rem;
-    margin: 0;
-    color: black;
-    font-size: 7.5rem;
-    border-radius: 1rem;
-    max-width: 40%;
+  .about-container {
     height: auto;
+  }
+
+  .contact-container {
+    height: auto;
+    padding-bottom: 10%;
   }
 }
+
+
 
 @media only screen and (max-width: 700px) {
 
   .contact-img {
     display: flex;
     display: inline-block;
-    padding: 1.5rem;
+    padding-right: 1.5rem;
     margin: 0;
     color: black;
-    height: 30%;
-    width: 30%;
+    height: 20%;
+    width: 20%;
   }
 
-  .project-container2 {
-    display: inline-block; 
-    width: 90%;
-    height: auto;
-    margin-right: 10px;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    
-  }
+  
 
 }
 
@@ -390,7 +395,7 @@ i {
     width: 100%;
     position: fixed;
     /* background-color: rgb(36, 36, 36); */
-    background-image: linear-gradient(to bottom, white,transparent);
+    background-color: white;
     display: block; 
     justify-content: center;
     /* border: solid yellow; */

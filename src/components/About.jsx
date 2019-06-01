@@ -17,8 +17,8 @@ function About() {
 
           <p className='about-text'>
             After becoming obsessed with automating google sheets I decided to dip my toe a 
-            little deeper into the world of code..  I started studying Ruby and a few months 
-            later had enrolled myself to Northcoders bootcamp based in Manchester. From here I 
+            little deeper into the world of code...  I started studying Ruby and a few months 
+            later had enrolled myself into Northcoders bootcamp based in Manchester. From here I 
             learnt fundamental Javascript which led to me creating fullstack web applications 
             using Node.js, Express.js, Postgresql and React.
           </p>
@@ -31,7 +31,7 @@ function About() {
 
           <p className='about-text'>
             In my spare time you can find me playing around in Photoshop and Illustrator, making
-            ill attempts of music in Ableton, running around the streets of Manchester trying to keep fit
+            poor attempts of music in Ableton, running around the streets of Manchester trying to keep fit
             or doing the occasional lightning talk.
           </p>
 
