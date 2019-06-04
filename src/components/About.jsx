@@ -26,7 +26,7 @@ function About() {
           <p className='about-text'>
             Being a very visual person, my passion tends to lean towards front end; I seem to
             get a kick out of making things look nice whilst also being functional, which perhaps
-            lends from having a degree in Product Design.
+            borrows from having a degree in Product Design.
           </p>
 
           <p className='about-text'>

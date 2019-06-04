@@ -1,7 +1,19 @@
-@font-face {
+/* @font-face {
 
   src: url('./fonts/MarkPro-Medium.ttf');
   font-family: MarkPro;
+} */
+
+
+
+
+@font-face {
+  font-family: 'dslclumarkpro-mediummedium';
+  src: url('./fonts/markpro-medium-webfont.woff2') format('woff2'),
+       url('./fonts/markpro-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 html,body
@@ -9,7 +21,8 @@ html,body
     
     overflow-x: hidden; 
     /* font-family: Helvetica, sans-serif, Arial; */
-    font-family: MarkPro;
+    /* font-family: MarkPro; */
+    font-family: 'dslclumarkpro-mediummedium';
     margin: 0;
 }
 
@@ -41,15 +54,10 @@ html,body
   position: fixed;
   display: flex;
   justify-content: space-between;
-  /* background-color: rgb(46, 46, 46); */
-
   background-image: linear-gradient(to bottom, white,transparent);
-
   align-items: center;
-  /* padding-right: 20px;
-  padding-left: 20px; */
   justify-content: center;
-  align-content: space-between;
+  
   height: 6rem;
 }
 
@@ -152,7 +160,7 @@ header i {
   margin: 0 auto;
   text-align: left;
   width: 80%;
-  height: 100%;
+  height: auto;
   /* border: dashed green; */
   padding-top: 4rem;
   padding-bottom: 4rem;
